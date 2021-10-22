@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 13px;
+    /* color: #fff; */
+}
+
+.form {
+    margin: auto 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+form > button {
+    padding: 8px 12px;
+    background: green;
+    border: none;
+    border-radius: 8px;
+    transform: skewX(10deg);
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ageCalculator {
+    background: radial-gradient(farthest-side at 60% 55%, red, blue, yellow);
+    text-align: center;
+    color: rgba(21, 91, 221, 0.76);
+    margin: 10px auto;
+    width: 70%;
+    transform: translateY(-50%, -50%);
+    transform: skewX(20deg);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+
+.experiment {
+    height: 800px;
+    background-color: antiquewhite;
+    margin-left: 35px;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    clear: left;
+    color: #fff;
+    text-shadow: 2px 12px 7px rgb(128, 128, 29);
+    font-size: 50px;
+} 
+
+.yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    clear: left;
+}
+
+li {
+    font-size: 1.3em;
+    padding-top: 5px;
+    list-style:inside;
+    margin: 5px 10px;
+}
